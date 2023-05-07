@@ -1,0 +1,16 @@
+#nav-bar {
+  /* customize this value. */
+  --navbar-margin: -64px;
+
+  margin-top: var(--navbar-margin);
+  z-index: -100;
+  opacity: 0;
+}
+
+#navigator-toolbox:focus-within > #nav-bar
+{
+  margin-top: auto;
+  z-index: 100;
+
+  opacity: 1;
+}
