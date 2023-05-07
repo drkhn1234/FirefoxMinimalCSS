@@ -1,0 +1,18 @@
+/* Disable auto-hiding when in 'customize' mode */
+
+:root[customizing] #nav-bar
+{
+  margin-top: auto;
+  z-index: 100;
+
+  opacity: 1;
+}
+
+:root[customizing] #TabsToolbar
+{
+  margin-top: 0;
+  margin-bottom: auto;
+  z-index: 100;
+
+  opacity: 1;
+}
