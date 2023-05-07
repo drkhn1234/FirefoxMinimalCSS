@@ -1,0 +1,23 @@
+#TabsToolbar {
+  /* customize this value. */
+  --navbar-margin: -32px;
+
+  margin-top: var(--navbar-margin);
+  margin-bottom: 0;
+  z-index: -100;
+
+}
+
+#titlebar:focus-within > #TabsToolbar,
+#titlebar:hover > #TabsToolbar
+{
+  margin-top: 0;
+  margin-bottom: auto;
+  z-index: 100;
+
+}
+
+#navigator-toolbox {
+	margin-top: -1px;
+}
+
