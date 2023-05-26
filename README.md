@@ -8,3 +8,5 @@ https://github.com/drkhn1234/FirefoxMinimalCSS/assets/97989691/a32ee740-2d2d-4f7
 
 # Issues
 * When firefox displays an alert strip from the top up complaining about how a pop-up windows should be opened, this strip is partially cut off from the window top.
+
+<img width="1275" alt="Screenshot 2023-05-26 at 22 58 09" src="https://github.com/drkhn1234/FirefoxMinimalCSS/assets/97989691/fad1b52e-7eaa-442b-b9e4-a24f64050278">
